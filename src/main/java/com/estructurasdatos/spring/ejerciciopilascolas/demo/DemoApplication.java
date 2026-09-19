@@ -32,11 +32,11 @@ public class DemoApplication {
         // Aquí probaremos la Cola
         Cola cola = new Cola();
 
-        cola.encolar("Perro");
-        cola.encolar("Gato");
-        cola.encolar("Pájaro");
-		cola.encolar("León");
-		cola.encolar("Elefante");
+        cola.encolar("La Iliada");
+        cola.encolar("La Odisea");
+        cola.encolar("El Quijote");
+		cola.encolar("Cien Años de Soledad");
+		cola.encolar("El Principito");
 
         System.out.println("\nCOLA:");
         cola.mostrar();
